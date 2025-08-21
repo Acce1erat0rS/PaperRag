@@ -9,10 +9,6 @@ A reranker model **[Qwen3-Reranker-0.6B](https://huggingface.co/Qwen/Qwen3-Reran
 ---
 ## Use Case Examples
 
-This section illustrates practical applications of the FAISS-based keypoint retrieval system for AI/ML research. The examples demonstrate how researchers can leverage the indexed keypoints for literature review, trend detection, and field analysis.
-
----
-
 ### 1. Query and Review Generation
 
 Researchers can issue a natural language query and automatically retrieve the most relevant keypoints across thousands of papers.  
@@ -29,10 +25,6 @@ The system can be used to analyze the distribution of research topics, methods, 
 
 <img width="1987" height="1490" alt="Field Analysis Output" src="https://github.com/user-attachments/assets/994b4a8f-eccd-49f4-9221-03c5d31de88b" />
 
-- Map trends of research focus within domains (e.g., Computer Vision, NLP, RL)  
-- Identify emerging or declining subfields  
-- Assess contributions of top authors, institutions, or regions
-
 ---
 
 ### 3. Trend Analysis
@@ -41,22 +33,11 @@ Temporal analysis can reveal hot topics, rising techniques, or shifts in methodo
 
 <img width="1993" height="589" alt="Trend Analysis Output" src="https://github.com/user-attachments/assets/da940e48-6a5f-4829-9970-fa13e0897d64" />
 
-- Track the evolution of techniques like diffusion models, transformers, or domain adaptation  
-- Compare topic prevalence across conferences  
-- Quantify impact of new methods over time  
-
 ---
 
 ### 4. Extended Applications
 
-Beyond basic query and retrieval, the system supports advanced workflows:
-
-- **Cross-domain literature surveys:** Aggregate insights from multiple fields to detect cross-disciplinary trends.  
-- **Automated report generation:** Use retrieved keypoints to compose structured research briefs or executive summaries.  
-- **RAG-based model support:** Integrate with generative models to produce context-aware answers grounded in recent research.  
-- **Meta-analysis:** Quantitatively assess methods, datasets, or performance metrics across years and venues.  
-
-These functionalities enable **efficient exploration of the AI/ML literature**, saving researchers significant time and improving the quality of survey and analysis work.
+Beyond basic query and retrieval, the system supports advanced workflows like research direction mining, and paper polishing methods, etc. The application is limitless.
 
 ---
 
